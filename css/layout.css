@@ -1,0 +1,25 @@
+@charset "utf-8";
+/*
+		Author: Miriam Gelbstein
+		Date: 1/05/2023
+		Term Project
+
+		layout for the header/logo etc */
+body > article#about_the_camps img {
+	float: left;
+	width: 20%;
+	margin: 0 0 5px 5px;
+    padding-right: 10px;
+}
+img#logo {
+	margin: 0 0 5px 5px;
+	height: 20em;
+	padding-top: 0;
+	padding-left: 23em;
+	padding-right: 27em;
+	background-color: #f0ffe8;
+	overflow: hidden;
+}
+body {
+	margin-right: 20px;
+}

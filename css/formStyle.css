@@ -1,0 +1,58 @@
+@charset "utf-8";
+/*
+		Author: Miriam Gelbstein
+		Date: 1/05/2023
+		Term Project
+
+		styling for the forms
+*/
+
+
+
+/* layout for the img header */
+img#logo {
+	margin: 0 0 5px 5px;
+	height: 20em;
+	padding-top: 0;
+	padding-left: 23em;
+	padding-right: 27em;
+	background-color: #f0ffe8;
+	overflow: hidden;
+}
+
+/*styling for the img header and nav links */
+
+header#header{
+    background-color:#f0ffe8;
+}
+
+nav {
+    font-size: 1em;
+    background-color:#f0ffe8;
+}
+.button{
+    list-style: none;
+    margin: 10px;
+	width: 900px;
+	font-family: sans-serif;
+}
+.button li{
+    display:block;
+	width:200px;
+    float: left;
+	margin-left:96px;
+	border: 2px solid #000;
+    border-color: #507856;
+    text-align: center;
+}
+.button a{
+    display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:white;
+	color:#507856;
+}
+.button a:hover{
+    background-color: #f0ffe8;
+	color: #507856;
+}

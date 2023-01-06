@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/*
+        Author: Miriam Gelbstein
+        Date: 1/05/2023
+        Term Project
+
+        css styling and some layout for the html document: home.html
+ */
+
+html {
+    background-color: white;
+}
+body {
+    color: rgb(91, 91, 91);
+    background-color:white;
+    font-family: Verdana, Geneva, sans-serif;
+}
+/*Styling for all the headers*/
+h3 {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+/*Background colors*/
+article#about_the_camps h3 {
+    color: white;
+    background-color: #ff916b;
+}
+header#header{
+    background-color:#f0ffe8;
+}
+/*Font size for navigation links at the top of the homepage*/
+nav {
+    font-size: 1em;
+    background-color:#f0ffe8;
+}
+.button{
+    list-style: none;
+    margin: 10px;
+	width: 900px;
+	font-family: sans-serif;
+}
+.button li{
+    display:block;
+	width:200px;
+    float: left;
+	margin-left:96px;
+	border: 2px solid #000;
+    border-color: #507856;
+    text-align: center;
+}
+.button a{
+    display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:white;
+	color:#507856;
+}
+.button a:hover{
+    background-color: #f0ffe8;
+	color: #507856;
+}
+.campLinks{
+    list-style: none;
+	width: 500px;
+	font-family: sans-serif;
+}
+.campLinks li{
+    display:inline;
+	width:100px;
+    float: left;
+	margin-left:20px;
+    margin-right: 20px;
+	border: 2px solid #000;
+    border-color: #507856;
+    text-align: center;
+}
+.campLinks a{
+    display:inline-block;
+	padding:2px;
+	text-decoration:none;
+	background-color:white;
+	color:#507856;
+}
+.campLinks a:hover {
+    background-color: #f0ffe8;
+    color: #507856;
+}
+
+/*Styling for the footer */
+body > footer > address {
+    margin-top: 20px;
+    background-color: #ffa770;
+    color: white; color: rgba(255,255,255, 0.7);
+    font: normal small-caps bold 0.9em/3em
+        Quicksand, Verdana, Geneva, san-serif;
+    text-align: center;
+}
+div#dateNow {
+    display: inline;
+}
+div#result {
+    display: inline;
+}
+div#diffDays {
+    display: inline;
+}
